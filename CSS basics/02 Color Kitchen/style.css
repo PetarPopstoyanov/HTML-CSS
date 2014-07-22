@@ -1,0 +1,57 @@
+body {background-image: url("colorful_dots_on_black.jpg"); margin: 0px; padding: 0px;}
+		
+body > header {background-color: #FFFFFF; margin-bottom: 20px; text-align: center; 
+background: linear-gradient(to right, red, red 33.3%, green 33.3%, green 67.7%, blue 67.7%); height: 40px;
+color: #EFF700; font-size: 2em; font-weight: bold; padding-bottom: 10px;}
+
+article {background: rgba(255, 255, 255, 0.9); width: 750px; height: auto; margin-bottom: 10px; margin-top: 0px; float: right; border-radius: 10px; 
+margin-right: 300px; padding: 10px;}
+
+aside {width: 200px; height: 200px; float:left; border-radius: 10px; margin-left: 10px; background: rgba(255, 255, 255, 0.9); padding: 5px; position: fixed;}
+
+aside header {padding-top: 10px; text-decoration: underline; font-weight: bold; font-size: 1.2em; padding-left: 10px;}
+
+nav ul {padding-left: 35px; list-style-image: url("Untitled.png"); margin-top: 3px;}
+
+nav ul li {line-height: 25px;}
+
+nav ul a {text-decoration: none; color: black;}
+
+nav ul a:visited {color: grey;}
+
+nav ul li:nth-child(1):hover {background-color: #FF0000; border-radius: 10px; margin-left: -25px; list-style-position: inside;
+padding-left: 5px; width: 110%;}
+
+nav ul li:nth-child(2):hover {background-color: #FFA500; border-radius: 10px; margin-left: -25px; list-style-position: inside;
+padding-left: 5px; width: 110%; display: list-item;}
+
+nav ul li:nth-child(3):hover {background-color: #FFFF00; border-radius: 10px; margin-left: -25px; list-style-position: inside;
+padding-left: 5px; width: 110%; display: list-item;}
+
+nav ul li:nth-child(4):hover {background-color: #008000; border-radius: 10px; margin-left: -25px; list-style-position: inside;
+padding-left: 5px; width: 110%; display: list-item;}
+
+nav ul li:nth-child(5):hover {background-color: #0000FF; border-radius: 10px; margin-left: -25px; list-style-position: inside;
+padding-left: 5px; width: 110%; display: list-item;}
+
+nav ul li:nth-child(6):hover {background-color: #800080; border-radius: 10px; margin-left: -25px; list-style-position: inside;
+padding-left: 5px; width: 110%; display: list-item;}
+
+section header {border-radius: 10px; padding-left: 10px; height: 40px; padding-top: 15px; font-size: 15pt; background-color: #FFFFFF;}
+
+#webColors {background-color: #FF0000; color: #FFFFFF;}
+#webSafeColors {background-color: #FFA500;}
+#RGB {background-color: #FFFF00;}
+#RGBA {background-color: #008000; color: #FFFFFF;}
+#\#HSLHSV {background-color: #0000FF; color: #FFFFFF;}
+#\#lorem {background-color: #800080; color: #FFFFFF;}
+
+article div:first-line {font-style: italic;}
+
+article div:first-letter {font-size: 3em;}
+
+footer a{color: grey; font-style: italic;}
+
+span:lang(la) {font-style: italic; color: #070083;}
+
+span:lang(la):after, span:lang(la):before {content: "\"";}

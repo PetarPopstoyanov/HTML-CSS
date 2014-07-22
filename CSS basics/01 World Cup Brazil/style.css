@@ -1,0 +1,20 @@
+table{border-radius: none; border: 1px solid #00923E; padding: 10px; background-color: #00923E;}
+td {border: 1px solid black; height: 50px;}
+.topleft {border-top-left-radius: 10px; text-align: right;}
+.topright {border-top-right-radius: 10px; text-align: center;}
+.bottomleft {border-bottom-left-radius: 10px;}
+.bottomright {border-bottom-right-radius: 10px;}
+.firstrow {background-color: #F8C711; font-weight: bold; font-size: 20pt;}
+.whiterow {background-color: #FFFFFF; font-size: 13.5pt;}
+.greyrow {background-color: #C8C8C8; font-size: 13.5pt;}
+button {border-radius: 20px; width: 36px; height: 36px; text-align:center; font-size: 9pt; color: #FFFFFF; background: #008000; outline-color: #FFFFFF;}
+button:disabled {background: #FF0000;}
+.large {width: 200px; padding-right: 7px; padding-left: 7px;}
+.smallest {width: 50px; text-align: center;}
+.medium {width: 100px; text-align: center;}
+.small {width: 115px; text-align: center;}
+select {width: 40px; height: 30px; color: #008000; font-weight:; font-size: 12pt;}
+select:disabled {color: #FF0000; background: #DCDCDC;}
+.right {text-align: right;}
+.image {display: inline-block;}
+.greengrey {outline-color: #C8C8C8;}

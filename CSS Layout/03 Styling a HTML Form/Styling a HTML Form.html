@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Step 1: Your details</legend>
+			<div>
+				<label for = "name">Name</label>
+				<input type = "text" placeholder = "First and last name" id = "name" name = "firstname" />
+			</div>
+			<div>
+				<label for = "email">Email</label>
+				<input type = "email" placeholder = "example@domain.com" id = "email" name = "mailaddress" 
+				pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" title="Please enter a valid email address format: some@name.com"/>
+			</div>
+			<div>
+				<label for = "phone">Phone</label>
+				<input type = "tel" placeholder = "eg. +4475000000000" id = "phone" name = "phonenumber" 
+				pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}" title="Please use the format: +359-888-88-88-88"/>
+			</div>
+	</fieldset>
+	<fieldset>
+		<legend>Step 1: Delivery address</legend>
+			<div>
+				<label for = "textarea" class = "textareaheading">Address</label>
+				<textarea id = "textarea" name = "comment"></textarea>
+			</div>
+			<div>
+				<label for = "postcode">Post code</label>
+				<input type = "text" id = "postcode" name = "postingcode"/>
+			</div>
+			<div>
+				<label for = "country">Country</label>
+				<input type = "text" id = "country" name = "coutryname" />
+			</div>
+	</fieldset>
+	<fieldset>
+		<legend>Step 1: Cards Details</legend>
+			<div>
+			<fieldset class = "cardchoise">
+				<legend>Card type</legend>
+						<input type = "radio" id = "VISA" name = "cardtype" /><img src = "VISA.png" />
+						<label for = "VISA" class = "card">VISA</label>
+						
+						<input type = "radio" id = "AmEx" name = "cardtype" /><img src = "Americanexpress.png" />
+						<label for = "AmEx" class = "card">AmEx</label>
+						
+						<input type = "radio" id = "Master" name = "cardtype" /><img src = "Mastercard.png" />
+						<label for = "Master" class = "card">Mastercard</label>
+			</fieldset>
+			</div>
+			<div>
+				<label for = "cardnumber">Card number</label>
+				<input type = "text" id = "cardnumber" name = "cardverification" />
+			</div>
+			<div>
+				<label for = "securitycode">Security code</label>
+				<input type = "text" id = "securitycode" name = "BIC" />
+			</div>
+			<div>
+				<label for = "nameoncard">Name on card</label>
+				<input type = "text" id = "nameoncard" name = "cardholder" placeholder = "exact name as on the card" />
+			</div>
+	</fieldset>
+	<span class="button">
+        <input type="submit" value="BUY IT!"/>
+    </span>
+</form>
+</body>
+</html>

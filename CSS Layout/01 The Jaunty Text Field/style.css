@@ -1,0 +1,23 @@
+.wrappper {border-top: 7px dotted #FFFF00; border-left: 7px dashed #FF0000; border-right: 7px solid #008000; border-bottom: 7px double #0000FF;
+width: 600px; height: 250px; padding: 20px;}
+h1 {text-align: center; text-shadow: 7px 7px  12px #404040; font-size: 30pt; margin-top: 15px;}
+.blueborder {border: 5px solid #0000FF; border-radius: 75px; width: 540px; margin: auto;}
+.greenborder {border: 5px solid #008000; border-radius: 75px;  width: 530px;}
+.yellowborder {border: 5px solid #FFFF00; border-radius: 75px; width: 520px;}
+.redborder {border: 5px solid #FF0000; border-radius: 75px; width: 510px;}
+h3 {text-align: center; text-shadow: 5px 5px 10px #404040;}
+.notbuttons {text-align: center; margin-bottom: 10px; border-top: 3px solid #EC9C0D; border-left: 3px solid #EC9C0D; border-bottom: 3px solid #AD7206; 
+border-right: 3px solid #AD7206; font-weight: bold; background: #D8921A; width: 180px; margin-right: 5px; margin-left: 5px;}
+form {text-align: center; margin-bottom: 0px;}
+
+.backgroundsmallest {background-color: rgba(164,164,164,0.7); width: 45px; height: 45px; border-radius: 45px; position: absolute; left: 500px; top: 170px;}
+.smallestbuble {border: 4px dashed; border-color: rgba(255, 255, 255, 0.9); width: 25px; height: 25px; border-radius: 25px; position: absolute; top: 6px; left: 5px;}
+
+.backgroundmiddle {background-color: rgba(164,164,164,0.7); width: 65px; height: 65px; border-radius: 65px; position: absolute; left: 550px; top: 110px;}
+.middlebuble {border: 4px dashed; border-color: rgba(255, 255, 255, 0.9); width: 45px; height: 45px; border-radius: 45px; position: absolute; top: 6px; left: 5px;}
+
+.backgroundbiggest {background-color: rgba(164,164,164,0.7); width: 150px; height: 85px; border-radius: 85px; position: absolute; left: 620px; top: 40px;}
+.biggestbuble {border: 4px dashed; border-color: rgba(255, 255, 255, 0.9); width: 130px; height: 65px; border-radius: 65px; position: absolute; top: 6px; left: 5px; text-align: center;}
+
+span {color: #FFFFFF; font-size: 19pt; margin: 3px; font-weight: bold;}
+		

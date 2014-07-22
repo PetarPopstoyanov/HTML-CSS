@@ -1,0 +1,9 @@
+.head {width: 500px; height: 500px; border: 2px solid black; border-radius: 500px; background-color: yellow;}
+.lefteye {width: 100px; height: 100px; border: 2px solid black; border-radius: 100px; position: absolute; left: 110px; top: 120px; background-color: #FFFFFF;}
+.righteye {width: 100px; height: 100px; border: 2px solid black; border-radius: 100px; position: absolute; left: 300px; top: 120px; background-color: #FFFFFF;}
+.nose {width: 80px; height: 80px; border: 2px solid black; position: absolute; background-color: red; border-radius: 80px; left: 215px; top: 250px;}
+.mouth {width: 220px; height: 85px; border: 2px solid black; border-radius: 40px; position: absolute; left: 144px; top: 360px; background-color: #FFFFFF;}
+.leftpupil {width: 25px; height: 25px; border: 2px solid black; border-radius: 25px; background-color: black; position: absolute; left: 55px; top: 55px;}
+.rightpupil {width: 25px; height: 25px; border: 2px solid black; border-radius: 25px; background-color: black; position: absolute; left: 1px; top: 1px;}
+.lefttooth {width: 40px; height: 40px; border: 2px solid black; border-top: none; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; position: absolute; left: 66px;}
+.righttooth {width: 40px; height: 40px; border: 2px solid black; border-top: none; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; position: absolute; left: 110px;}
